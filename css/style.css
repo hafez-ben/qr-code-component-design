@@ -1,0 +1,91 @@
+/* 
+==================
+ font style
+==================
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+
+/* 
+==================
+ variables
+==================
+*/
+
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-gray: hsl(212, 45%, 89%);
+  --clr-grayish-blue: hsl(220, 15%, 55%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+}
+
+/* 
+==================
+ main style
+==================
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit";
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+
+/* 
+==================
+ qr-code section
+==================
+*/
+
+
+.section {
+  height: 100vh;
+  background: var(--clr-light-gray);
+
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+.card {
+  background: var(--clr-white);
+  width: 90vw;
+  text-align: center;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  max-width: 23rem;
+}
+
+.card-img {
+  border-radius: 1.2rem;
+}
+
+.card-body {
+  padding: 1rem 0 1.5rem 0;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  padding: 0 0.75rem;
+  font-weight: 700;
+}
+
+.card-description {
+  font-weight: 400;
+  color: var(--clr-grayish-blue);
+  padding: 0 2rem;
+}
